@@ -1,5 +1,7 @@
+#%%
 import numpy as np
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
+
 #1. exercise
 
 def c_pol(x,i):
