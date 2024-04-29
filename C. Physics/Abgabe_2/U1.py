@@ -20,7 +20,7 @@ for i in range(N_jump):
 
 #Parameters for the plot
 N_plot=np.linspace(1,N_jump,num=N_jump) #x-axis data 
-step=int(N_jump/40) #stepping of the data
+step=int(N_jump/20) #stepping of the data
 
 #Plots 
 plt.plot(N_plot[::step],N_plot[::step],color="red")
@@ -32,3 +32,5 @@ plt.legend(["Analytical result", "Numerical results"])
 plt.xlabel("N")
 plt.ylabel(r"$\Delta x^2$ ")
 plt.savefig("Variance_plot.pdf", dpi=1000)
+plt.show()
+
